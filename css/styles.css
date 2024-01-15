@@ -140,7 +140,6 @@ ul {
     text-transform: capitalize;
 }
 .button-section-one {
-    border-radius: 4px;
         background: var(--IRIS, #4D5AE5);
         color: var(--WHITE, #FFF);
             font-family: "Roboto", sans-serif;
