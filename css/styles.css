@@ -115,6 +115,16 @@ ul {
         /* 150% */
         letter-spacing: 0.32px;
 }
+.address-link:focus {
+    color: var(--OCEAN, #404BBF);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
 .section-one {
     background: var(--NAVY-BLUE, #2E2F42);
 }
@@ -193,6 +203,9 @@ ul {
         letter-spacing: 0.72px;
         text-align: center;
         text-transform: capitalize;
+}
+.section-three-list {
+    background-color: #FFFFFF;
 }
 .section-three-name {
     color: var(--NAVY-BLUE, #2E2F42);
