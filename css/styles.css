@@ -27,24 +27,22 @@ ul {
 
 .logo-studio {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
-    /* 116.667% */
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 .link-studio {
     color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Roboto;
+        font-family: "Raleway", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
-        /* 150% */
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 
@@ -88,6 +86,9 @@ ul {
     /* 150% */
     letter-spacing: 0.32px;
 }
+.address {
+    font-style: normal
+}
 .address-link {
     color: var(--SLATE, #434455);
         font-family: Roboto;
@@ -117,21 +118,22 @@ ul {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
-    /* 107.143% */
+    line-height: 1.07;
     letter-spacing: 1.12px;
+    text-align: center;
 }
 .button-section-one {
     border-radius: 4px;
         background: var(--IRIS, #4D5AE5);
         color: var(--WHITE, #FFF);
-            font-family: Roboto;
+            font-family: "Roboto", sans-serif;
             font-size: 16px;
             font-style: normal;
             font-weight: 500;
             line-height: 24px;
             /* 150% */
             letter-spacing: 0.64px;
+            cursor: pointer;
 }
 
 .button-section-one:hover {
@@ -177,9 +179,9 @@ ul {
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 40px;
-        /* 111.111% */
+        line-height: 1.11;
         letter-spacing: 0.72px;
+        text-align: center;
         text-transform: capitalize;
 }
 .section-three-name {
@@ -241,18 +243,17 @@ ul {
 }
 .logo-web-footer {
     color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 21px;
-        /* 116.667% */
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
 .logo-studio-footer {
     color: var(--CLOUD, #F4F4FD);
-        font-family: Raleway;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
@@ -264,7 +265,7 @@ ul {
 .footer-text {
     color: var(--CLOUD, #F4F4FD);
         /* Body */
-        font-family: Roboto;
+        font-family: "Raleway", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
