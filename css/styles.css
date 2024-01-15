@@ -1,10 +1,9 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
-    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: #ffffff;
 } 
 .header {
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
         background: var(--WHITE, #FFF);
 }
 a {
@@ -40,7 +39,6 @@ ul {
 
 .link-studio {
     color: var(--NAVY-BLUE, #2E2F42);
-        /* Body Medium */
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -52,7 +50,6 @@ ul {
 
 .link-studio:hover {
     color: var(--OCEAN, #404BBF);
-        /* Body Medium */
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -63,7 +60,6 @@ ul {
 }
 .link-studio:active {
     color: var(--OCEAN, #404BBF);
-        /* Body Medium */
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -74,7 +70,6 @@ ul {
 }
 .link {
     color: var(--NAVY-BLUE, #2E2F42);
-    /* Body Medium */
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -85,7 +80,6 @@ ul {
 }
 .link:hover {
     color: var(--OCEAN, #404BBF);
-    /* Body Medium */
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -96,7 +90,6 @@ ul {
 }
 .address-link {
     color: var(--SLATE, #434455);
-        /* Body */
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -107,7 +100,6 @@ ul {
 }
 .address-link:hover {
     color: var(--OCEAN, #404BBF);
-        /* Body */
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -121,7 +113,6 @@ ul {
 }
 .section-one-title {
     color: var(--WHITE, #FFF);
-    text-align: center;
     font-family: Roboto;
     font-size: 56px;
     font-style: normal;
@@ -133,9 +124,7 @@ ul {
 .button-section-one {
     border-radius: 4px;
         background: var(--IRIS, #4D5AE5);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         color: var(--WHITE, #FFF);
-            /* Button Text */
             font-family: Roboto;
             font-size: 16px;
             font-style: normal;
@@ -146,11 +135,8 @@ ul {
 }
 
 .button-section-one:hover {
-    border-radius: 4px;
         background: var(--OCEAN, #404BBF);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         color: var(--WHITE, #FFF);
-            /* Button Text */
             font-family: Roboto;
             font-size: 16px;
             font-style: normal;
@@ -164,7 +150,6 @@ ul {
 }
 .section-two-name {
     color: var(--NAVY-BLUE, #2E2F42);
-        /* Header 3 */
         font-family: Roboto;
         font-size: 20px;
         font-style: normal;
@@ -175,7 +160,6 @@ ul {
 }
 .section-two-text {
     color: var(--SLATE, #434455);
-        /* Body */
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -189,8 +173,6 @@ ul {
 }
 .section-three-title {
     color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
-        /* Header 2 */
         font-family: Roboto;
         font-size: 36px;
         font-style: normal;
@@ -202,8 +184,6 @@ ul {
 }
 .section-three-name {
     color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
-        /* Header 3 */
         font-family: Roboto;
         font-size: 20px;
         font-style: normal;
@@ -214,8 +194,6 @@ ul {
 }
 .section-three-text {
     color: var(--SLATE, #434455);
-        text-align: center;
-        /* Body */
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -229,8 +207,6 @@ ul {
 }
 .section-four-title {
     color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
-        /* Header 2 */
         font-family: Roboto;
         font-size: 36px;
         font-style: normal;
@@ -242,7 +218,6 @@ ul {
 }
 .section-four-name {
     color: var(--NAVY-BLUE, #2E2F42);
-        /* Header 3 */
         font-family: Roboto;
         font-size: 20px;
         font-style: normal;
@@ -253,7 +228,6 @@ ul {
 }
 .section-four-text {
     color: var(--SLATE, #434455);
-        /* Body */
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
