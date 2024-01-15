@@ -15,15 +15,13 @@ ul {
 }
 .logo-web {
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
-    /* 116.667% */
+    line-height: 1.17;
     letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
+   
 
 .logo-studio {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -33,7 +31,7 @@ ul {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.54px;
-    text-transform: uppercase;
+    
 }
 
 .link-studio {
@@ -147,6 +145,9 @@ ul {
             /* 150% */
             letter-spacing: 0.64px;
 }
+.button-section-one:focus {
+    background-color: #404BBF
+}
 .section-two {
     background: #FFF;
 }
@@ -182,7 +183,6 @@ ul {
         line-height: 1.11;
         letter-spacing: 0.72px;
         text-align: center;
-        text-transform: capitalize;
 }
 .section-three-name {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -216,7 +216,7 @@ ul {
         line-height: 40px;
         /* 111.111% */
         letter-spacing: 0.72px;
-        text-transform: capitalize;
+        
 }
 .section-four-name {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -249,7 +249,7 @@ ul {
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.54px;
-        text-transform: uppercase;
+       
 }
 .logo-studio-footer {
     color: var(--CLOUD, #F4F4FD);
@@ -260,7 +260,7 @@ ul {
         line-height: 21px;
         /* 116.667% */
         letter-spacing: 0.54px;
-        text-transform: uppercase;
+        
 }
 .footer-text {
     color: var(--CLOUD, #F4F4FD);
